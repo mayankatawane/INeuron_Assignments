@@ -1,0 +1,43 @@
+1.What is serverless computing?
+--->Serverless computing enables developers to build applications faster by eliminating the need for them to manage infrastructure. 
+With serverless applications, the cloud service provider automatically provisions, scales, and manages the infrastructure required to run the code.
+Serverless computing can simplify the process of deploying code into production. Serverless code can be used in conjunction with code deployed in traditional styles, such as microservices or monoliths. 
+Alternatively, applications can be written to be purely serverless and use no provisioned servers at all.
+
+
+2.Explain Azure subscriptions, management groups and resources.
+---> An Azure subscription links to an Azure account, which in turn is an identity in Azure Active Directory (AD). Hence, a subscription is an agreement between an organization and Microsoft to use resources, for which charges are either paid on a per-license basis or a cloud-based, resource-consumption basis.
+Azure management groups provide a way for an organization to control and manage access, compliance, and policies for their subscription within their tenant. These containers provide scope above subscriptions, allowing a level of inheritance applied to that management group or any parent group.
+Azure resources are collection of virtual machines and different types of computational systems used to provide services to customer.
+
+3.Explain Azure regions, availability zones, and region pairs.
+----> Azure regions are nothing but data centers present in different parts of the world. They are owned and maintained by microsoft and they are connected to internal network.
+Azure availability zones are physically separate locations within each Azure region that are tolerant to local failures. Failures can range from software and hardware failures to events such as earthquakes, floods, and fires.
+Azure region pair is a connection between two different regions which are close greographically with each other. This is done to avoid disaster failure issues and provide 24/7 service to customer.
+
+4.Explain Azure Resource Manager, Azure subscription and management group.
+---->Azure Resource Manager is the deployment and management service for Azure. It provides a management layer that enables you to create, update, and delete resources in your Azure account. You use management features, like access control, locks, and tags, to secure and organize your resources after deployment.
+An Azure subscription links to an Azure account, which in turn is an identity in Azure Active Directory (AD). Hence, a subscription is an agreement between an organization and Microsoft to use resources, for which charges are either paid on a per-license basis or a cloud-based, resource-consumption basis.
+Azure management groups provide a way for an organization to control and manage access, compliance, and policies for their subscription within their tenant. These containers provide scope above subscriptions, allowing a level of inheritance applied to that management group or any parent group.
+
+
+5.Provide overview of Azure Compute Services.
+
+Following are the main compute options available in Azure:
+
+Virtual Machine: It is an IaaS service, allowing us to deploy and manage VMs inside a virtual network (VNet).
+App Service: It is a managed PaaS offering for hosting web apps, mobile app back ends, RESTful APIs, or automated business processes.
+Service Fabric: It is a platform that can run on any environment, including Azure or on-premises. It is an orchestrator of micro-services across a cluster of machine
+Azure Kubernetes Services: It manages a hosted Kubernetes service for running containerized applications.
+Azure Container Instances: It offers the fastest and most straightforward way to run a container in Azure without having to provision any virtual machines and without having to adopt a high-level service.
+Azure Functions: It is a managed FaaS service.
+Azure Batch: It is a managed service for running large-scale parallel and high-performance computing (HPC) applications.
+
+6.What is an Azure virtual machine and when to opt for an Azure virtual machine?
+
+----> azure virtual machine It is an IaaS service, allowing us to deploy and manage VMs inside a virtual network (VNet).
+we should opt for azure virtual machines for small applications . They are recommended for small servers, low-traffic web servers, or development environments.
+
+
+
+
