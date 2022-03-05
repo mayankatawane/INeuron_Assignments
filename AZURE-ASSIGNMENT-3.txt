@@ -1,0 +1,33 @@
+Azure fundamental assignment 3
+
+What is Azure App Service and when to opt for Azure App Service?
+
+----> Azure App Service is an HTTP-based service for hosting web applications, REST APIs, and mobile back ends. You can develop in your favorite language, be it . NET, . NET Core, Java, Ruby, Node
+
+we should opt for azure app service when we are short of infrastructure and we dont want overhead of managaing infrastructure.It offers auto-scaling and high availability, supports both Windows and Linux, and enables automated deployments from GitHub, Azure DevOps, or any Git repo. Learn how to use Azure App Service with our quickstarts, tutorials, and samples.
+
+Differentiate Azure Container Instances and Azure Kubernetes Service
+-----> ACI --- It is a solution for any scenario that can operate in isolated containers, without orchestration. Run event-driven applications, quickly deploy from your container development pipelines, and run data processing and build jobs.
+For event-driven applications, quickly deploy from your container development pipelines, run data processing, and build jobs.
+AKS--- Deploy and manage containerized applications more easily with a fully managed Kubernetes service. It offers serverless Kubernetes, an integrated continuous integration and continuous delivery (CI/CD) experience, and enterprise-grade security and governance. Unite your development and operations teams on a single platform to rapidly build, deliver, and scale applications with confidence.
+Uses clusters and pods to scale and deploy applications
+
+
+What is the Azure function? Explain in brief.
+
+-----> Azure Functions is a cloud service available on-demand that provides all the continually updated infrastructure and resources needed to run your applications. You focus on the pieces of code that matter most to you, and Functions handles the rest. Functions provides serverless compute for Azure. Azure functions is a serverless concept of cloud native design that allows a piece of code deployed and execute without any need of server infrastructure, web server, or any configurations. Azure functions can be written in multiple languages such as C#, Java, JavaScript, TypeScript, and Python.
+
+What is Azure Virtual Desktop?
+ ---> A virtual desktop is a full desktop that runs on a remote server. This enables you to securely access work applications and data from wherever you are and on any device. It expands the possibilities beyond the physical desktop screen in the office. Azure VD is a desktop app and visualization service that runs on the cloud. It provides all the benefits you might expect from a virtual desktop while offering the same tools and resources your employees already use.
+ 
+ 
+What is Azure virtual networking? Explain in detail.
+
+----> An Azure Virtual Network (VNet) is a network or environment that can be used to run VMs and applications in the cloud.
+When it is created, the services and Virtual Machines within the Azure network interact securely with each other.t provides an isolated environment for your applications
+A subnet in a VNet can access the public internet by default,We can easily direct traffic from resources,It is a highly secure network,It has high network connectivity,It builds sophisticated network topologies in a simple manner.The components of Azure Networking are listed below, and we have explained each of these components in a detailed manner:SubnetsRoutingNetwork Security Groups.
+
+
+Explain Azure VPN gateway.
+
+-----> Azure VPN Gateway is a cloud based network gateway that enables in connecting on-premises networks  with Azure using site-to-site VPNs.  Azure VPN Gateway provides secure connectivity by using industry standard protocols, IPsec and IKE to secure the connection.  In order to build the connection, Azure requires using its preferred gateway devices vendors for establishing a site to site connection. It can also be used to establish connection between virtual networks i.e. VNet to VNet. and it provides two different types of gateways.Static Routing –  Delivers policy based VPN connectivity and routing ,Dynamic Routing – Provides route based VPN connectivity and routing
