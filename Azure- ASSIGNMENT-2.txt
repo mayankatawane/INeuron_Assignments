@@ -1,0 +1,45 @@
+------Azure fundamental assignment 1
+
+
+What is cloud computing? What is Azure?
+---> Cloud computing is a way to access computational resources through internet, These days many big corporations lend their datacenters as a service to other small organizations. This is a very effective way to not spend money on hardware and maintenance for a new emerging startup.
+
+Azure is a microsoft provided cloud platform which contains of multiple data centers handled by microsoft over the globe. It provided various computational services to its customer.
+
+How to create an Azure account list the steps and requirements?
+---> to use AZURE u need to do following steps
+1. sign up to azure.microsoft.com and create an account
+2. If you already have an account go to  portal.azure.com and enter creds
+3. while creating a new account either credir-card or debit card details are required.
+4. every new memeber gets 12 months free tier subscription.
+
+
+Describe different types of cloud models.
+
+----> 1. Infrastructure as a Service (IaaS) -->This the most commonly used cloud computing service model owing to its structural support that includes virtual servers, operating systems, network, and data storage drives. The IaaS model caters to the businesses’ basic need for scalability, flexibility, and reliability vis-a-vis the cloud, as well as obliterates the need for maintaining hardware in the office space.
+2. Platform as a Service (PaaS)--->This cloud computing model deploys software and infrastructure framework offered by the cloud service providers with room for businesses to develop and run applications of their own as well. PaaS clouds are developed within IaaS clouds in many cases by specialists with a view of scaling the process of application deployment, making the users’ expenses highly predictable.
+3. Software as a Service (SaaS)------> SaaS is relatively knowledgeable service, and the use of the term predated cloud computing. In this service model, applications leverage the cloud for software architecture, thus, cutting back significantly on burdens of operations, support, and maintenance.
+
+Describe different cloud services.
+
+------>
+ 1. Infrastructure as a Service (IaaS) -->This the most commonly used cloud computing service model owing to its structural support that includes virtual servers, operating systems, network, and data storage drives. The IaaS model caters to the businesses’ basic need for scalability, flexibility, and reliability vis-a-vis the cloud, as well as obliterates the need for maintaining hardware in the office space.
+2. Platform as a Service (PaaS)--->This cloud computing model deploys software and infrastructure framework offered by the cloud service providers with room for businesses to develop and run applications of their own as well. PaaS clouds are developed within IaaS clouds in many cases by specialists with a view of scaling the process of application deployment, making the users’ expenses highly predictable.
+3. Software as a Service (SaaS)------> SaaS is relatively knowledgeable service, and the use of the term predated cloud computing. In this service model, applications leverage the cloud for software architecture, thus, cutting back significantly on burdens of operations, support, and maintenance.
+
+
+What are some cloud computing advantages?
+
+----> Scalability
+Cost effectivity
+Business continuity
+Collaboration efficiency
+Flexibility of work practices
+Access to automatic updates
+
+
+Differentiate Capital expenses vs. operating expenses
+
+----->Capital Expenditure (CapEx): It is the initial spending of money ( whole together ) on physical infrastructure, and then deducting that up-front expense over time. The up-front cost from CapEx has a value that reduces over time. All expenses incurred for long-term benefits in the future lie under CapEx.
+
+Operational Expenditure (OpEx): It is like a pay-as-you-go service. You can deduct this expense in the same year you spend it. There is no up-front cost, as you pay for a service or product as you use it. It is as the name suggests, the expense of daily operation.
