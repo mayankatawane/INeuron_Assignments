@@ -1,0 +1,40 @@
+Azure fundamental assignment 5
+
+
+What is the Azure firewall? How to use the Azure firewall?
+
+------> Azure Firewall is a managed, cloud-based network security service that protects your Azure Virtual Network resources. It is a fully stateful firewall as a service with built-in high availability and unrestricted cloud scalability.You can centrally create, enforce, and log application and network connectivity policies across subscriptions and virtual networks. Azure Firewall uses a static public IP address for your virtual network resources allowing outside firewalls to identify traffic originating from your virtual network. The service is fully integrated with Azure Monitor for logging and analytics.  Controlling outbound network access is an important part of an overall network security plan. For example, you may want to limit access to web sites. Or, you may want to limit the outbound IP addresses and ports that can be accessed.
+One way you can control outbound network access from an Azure subnet is with Azure Firewall. With Azure Firewall, you can configure:
+Application rules that define fully qualified domain names (FQDNs) that can be accessed from a subnet.
+Network rules that define source address, protocol, destination port, and destination address.
+
+Differentiate authentication and authorization?
+------> Authentication is used to identify the login is from a specific person or not using credentials like username and password.
+Authorization is based on the permissions to a user we authorize him/her to access certain resources for ex:- Manager has access to all the employee data but employee only have access to his own data both are authentic users but manager is authorized to access more info.
+Authentication works through passwords, one-time pins, biometric information, and other information provided or entered by the user.
+Authorization works through settings that are implemented and maintained by the organization.
+Authentication is visible to and partially changeable by the user.
+Authorization isn’t visible to or changeable by the user.
+
+
+What is Azure Active Directory?
+------->Azure AD, the administrators can handle multiple user logins without any issue. Administrators need to assign a single username and password to access all the services they want. 
+Azure Active Directory is Microsoft’s multi-tenant, cloud-based directory and identity management service. For an organization, Azure AD helps employees sign up to multiple services and access them anywhere over the cloud with a single set of login credentials.Azure Active Directory (Azure AD) is Microsoft’s enterprise cloud-based identity and access management (IAM) solution. Azure AD is the backbone of the Office 365 system, and it can sync with on-premise Active Directory and provide authentication to other cloud-based systems via OAuth.
+
+
+What are multifactor authentication and conditional access available in Azure?
+------->Conditional Access brings signals together, to make decisions, and enforce organizational policies. Azure AD Conditional Access is at the heart of the new identity-driven control plane.Conditional Access policies at their simplest are if-then statements, if a user wants to access a resource, then they must complete an action. Example: A payroll manager wants to access the payroll application and is required to do multi-factor authentication to access it.
+Azure AD offers a broad range of flexible multifactor authentication (MFA) methods—such as texts, calls, biometrics, and one-time passcodes—to meet the unique needs of your organization and help keep your users protected.Microsoft Authenticator,Windows Hello for Business,FIDO2 security keys,Hardware tokens,SMS.
+
+
+What is resource lock? Describe why resource lock should be used?
+-------> Resource Manager Locks provide a way for administrators to lock down Azure resources to prevent deletion or changing of a resource. These locks sit outside of the Role Based Access Controls (RBAC) hierarchy and, when applied, will place restrictions on the resource for all users. These are very useful when you have an important resource in your subscription that users should not be able to delete or change and can help prevent accidental and malicious changes or deletion.
+
+What is Azure policy? Write it Usage.
+------>Azure Policy helps you manage and prevent IT issues with policy definitions that enforce rules and effects for your resources.Azure Policy helps to enforce organizational standards and to assess compliance at-scale. Through its compliance dashboard, it provides an aggregated view to evaluate the overall state of the environment, with the ability to drill down to the per-resource, per-policy granularity. It also helps to bring your resources to compliance through bulk remediation for existing resources and automatic remediation for new resources.
+Common use cases for Azure Policy include implementing governance for resource consistency, regulatory compliance, security, cost, and management. Policy definitions for these common use cases are already available in your Azure environment as built-ins to help you get started.
+
+What is the Azure government? What is Azure China 21Vianet?
+------->Microsoft Azure operated by 21Vianet (Azure China) is a physically separated instance of cloud services located in China. It's independently operated and transacted by Shanghai Blue Cloud Technology.
+Azure Government is a cloud environment specifically built to meet compliance and security requirements for US government. This mission-critical cloud delivers breakthrough innovation to U.S. government customers and their partners. Azure Government applies to government at any level — from state and local governments to federal agencies including Department of Defense agencies.
+
